@@ -8,7 +8,6 @@ nodeList = []
 edgeList = []
 nodeCnt = {}
 
-# Function to create a graph from a CSV file
 def From_CSV_To_Graph(fileName):
 
     file = open(fileName, 'r')
@@ -40,12 +39,10 @@ def From_CSV_To_Graph(fileName):
 
 Graph = From_CSV_To_Graph('impressionData.csv')
 
-# Function to perform a random walk on the graph
 def Random_Walk(graph):
 
     random_node = random.choice(nodeList)
 
-    # Iterate through the random walk process
     for i in range(100000):
         n = random.random()  
         nodeCnt[random_node] += 1  
