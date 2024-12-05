@@ -12,4 +12,5 @@ Missing Link Prediction: Uses probabilistic methods to predict and add missing l
 
 # Application:
 Influence Analysis: Ranking nodes based on their influence in a network (e.g., social networks, communication systems).
+
 Link Prediction: Enhancing existing networks by predicting potential missing connections that could improve network efficiency or accuracy.
